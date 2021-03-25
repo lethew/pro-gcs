@@ -1,7 +1,7 @@
 package studio.greeks.progcs.entity;
 
 /**
- * TODO:
+ * 支付订单信息
  *
  * @author <a href="mailto:wuzhao-1@thunisoft.com>吴昭</a>
  */

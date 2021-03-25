@@ -4,6 +4,7 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Index;
 import javax.persistence.Table;
+import java.util.Date;
 
 /**
  * 会员表
@@ -41,6 +42,11 @@ public class Member extends BaseEntity {
      */
     @Column(name = "mobile", nullable = false, unique = true)
     private String mobile;
+
+    /**
+     * 会员到期时间
+     */
+    private Date expireDate;
 
     /**
      * 会员登录账号
