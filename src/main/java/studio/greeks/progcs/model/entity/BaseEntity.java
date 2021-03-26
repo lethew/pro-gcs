@@ -1,4 +1,4 @@
-package studio.greeks.progcs.entity;
+package studio.greeks.progcs.model.entity;
 
 import org.hibernate.annotations.GenericGenerator;
 import org.springframework.data.annotation.CreatedDate;

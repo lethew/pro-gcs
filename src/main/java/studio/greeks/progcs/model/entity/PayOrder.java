@@ -1,4 +1,4 @@
-package studio.greeks.progcs.entity;
+package studio.greeks.progcs.model.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
